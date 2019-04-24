@@ -19,7 +19,7 @@ function getOSinfo() {
     console.log('Uptime: ~'.green, (uptime / 60).toFixed(0), 'min');
     //console.log('Uptime: ~', GetTime.print2(uptime));
     console.log('User name:'.yellow, userInfo.username);
-    console.log('Home dir:'.grey, userInfo.homedir);
+    console.log('Home dir:'.white, userInfo.homedir);
 }
 
 exports.print = getOSinfo;
